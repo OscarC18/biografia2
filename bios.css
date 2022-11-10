@@ -1,0 +1,112 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap'););
+*,
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Quicksand',sans-serif;
+}
+
+.container {
+    width: 800px;
+}
+
+header{
+    background: url(../images/descarga-_1_.jpg);
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-size: 100% auto;
+    background-position: center;
+    color: #f6f6f6a3;
+    text-align: center;
+    padding: 15% 20%;
+}
+
+header h2,
+ header h3{
+    padding: 15px 20px;
+    background-color: rgba(233,233,233,0.6);
+}
+
+.phrase{
+    background: #ccc;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.phrase span{
+    front-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+div.clear{
+    clear: both;
+}
+
+.col {
+    float:left;
+    padding: 10px 10px 10px 5px;
+}
+.col-1 {
+    width: 485px;
+}
+
+.col-1 ul{
+    list-style: none;
+}
+
+.col-1 .item{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px 0 10px 0;
+}
+.col-1 .item:hover{
+    background: #333;
+    color: #eff;
+
+}
+
+.col-1 .item .date,
+.col-1 .item .desc{
+    float: left;
+}
+
+.col-1 .item .date{
+    width: 30%;
+    font-weight: bold;
+}
+
+.col-1 .item .desc{
+    width: 65%;
+}
+
+
+.col-2{
+    width: 285px;
+    text-align: center;
+
+}
+
+.col-2 img{
+    width: 100%;
+    border-radius: 100px;
+    margin: 10px 5px;
+    border: 2px solid #000000;
+    
+}
+.col-2 table tr:hover{
+    background: #cdcdcd;
+    }
+.col-2 table td:first-child{
+    text-align: right;
+    font-weight: bold; 
+    text-transform: uppercase;
+    padding-right: 5px;
+    font-size: 12px;
+}
+
+.col-2 table td:last-child{
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
